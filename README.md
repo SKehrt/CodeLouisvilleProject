@@ -9,4 +9,4 @@ Once the full site is complete, clicking on each subject will take the site visi
 
 I have included three JavaScript functions for alert Boxes pertaining to the informational Buttons: 'About Stephanie', 'Prices' and "Contact Information'.
 
-I have also included three CSS Selectors - please see: The container/row I used to align the information buttons, the footer with my copyright claim and 
+I have also included more than three CSS Selectors including:  the images I chose and included for each cateogry, the container/row I used to align the information buttons and the footer with my copyright claim. 
