@@ -1,9 +1,9 @@
 <!doctype html>
+
 <html lang="en">
-<!-- Read Me: I created a webpage to showcase my portrait photography. It includes multiple subjects of whom I have taken their portrait for different categories (High School Seniors,
-Headshots, Professionals, Family, Children, etc.). My intention is to highlight the versatility of the sessions. Once the full site is complete, clicking on each subject will take the
-site visitor to that subject's page, showing multiple different images and moods I was able to catch on film, during just one shoot. </--->
+
   <head>
+
   <title> ImageSK Photography </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,18 +11,22 @@ site visitor to that subject's page, showing multiple different images and moods
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel-"stylesheet" href="css/styles.css">
+
+
     <title> ImageSK Photography </title>
 
   </head>
+
   <body>
 
     <div class="container text-center text-muted">
-    <h1 class="display-6 my-4 text-capitalize font-weight-bold font-italic"> Images by Stephanie Kehrt </h1> <!-- Business is ImageSK: this line, with my full name, makes clear who I am & also
+    <h1 class="display-6 my-4 text-capitalize font-weight-bold"> Images by Stephanie Kehrt </h1> <!-- Business is ImageSK: this line, with my full name, makes clear who I am & also
     helpful for search purposes </-->
     <p class="lead text-capitalize font-weight-bold font-italic"> Portrait Photography ... Capturing You & Yours in Nature's Best Light </p> <!-- The subtitle is in italics for to make it more like a personal message after the bold title -->
 </div>
 
-<div class="p-3 mb-2 bg-secondary text-white">
+<div class="p-5 mb-5 bg-secondary text-white">
 
     <div class="container"> <!-- these are the three 'staggered' columns for photo categories SR Portraits, Children, Professional, etc. -->
 
@@ -34,7 +38,7 @@ site visitor to that subject's page, showing multiple different images and moods
     </div>
 
     <div class="col align-self-center">
-      <img src="images/Katharine.jpg" class="img-fluid rounded" alt="Katharine"> <!-- Katharine photo example -->
+      <img src="images/Katharine.jpg" class="img-fluid rounded" alt="Katharine"> <!-- Katharine Sr. photo example -->
       <h4> Senior Portraits </h4>
     </div>
 
@@ -60,27 +64,60 @@ site visitor to that subject's page, showing multiple different images and moods
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-</div>
 
+
+</div>
   </body>
 
-<!-- buttons for contact, about, etc. -->
+<div class="container">
 
-<div class="container text-left text-bold">
-  <button type="button" class="btn btn-outline-dark"> About Stephanie </button>
+<div class="row" >
+
+  <div .right {
+      float: right;
+      width: 300px;
+      border: 3px solid #73AD21;
+      padding: 10px;
+  }>
+
+<form name= About Stephanie>
+<input type=button value="About Stephanie"
+onClick="alert('20 Years of Portrait Experience!')">
+</form>
+
+<form name= Price Information>
+<input type=button value="Prices"
+onClick="alert('Please Call for Package Prices & Details')">
+</form>
+
+<form name= Contact Information>
+<input type=button value="Contact Information"
+onClick="alert('Please Call or Email for to Make an Appointment. Thank you!')">
+</form>
+
+</div>
+  </div>
 </div>
 
-<div class="container text-center text-bold">
-  <button type="button" class="btn btn-outline-dark"> Prices </button>
+<div class="container">
+
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>All Images Copyright 2018</p>
 </div>
 
-<div class="container text-right text-dark text-bold">
-  <button type="button" class="btn btn-outline-dark"> Please Call: 859. 913. 1929 </button>
-</div>
-
-
-
-
+  </div>
 
 
 
@@ -90,5 +127,5 @@ site visitor to that subject's page, showing multiple different images and moods
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <script src="js/scripts.js"> </script>
 </html>
