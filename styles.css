@@ -1,0 +1,30 @@
+#532156
+
+[h1] {
+color: black;
+}
+
+[p] {
+  color: black;
+}
+
+[h4] {
+  color: white;
+}
+
+
+input [type="button"],
+input [type="value"], {
+cursor: pointer;
+}
+
+
+  #footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: gray;
+      color: white;
+      text-align: left;
+  }
